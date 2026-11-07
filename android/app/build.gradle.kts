@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         applicationId = "com.jossephus.chuchu"
-        minSdk = 24
+        minSdk = 28
         targetSdk = 36
 
         val major = (System.getenv("VERSION_MAJOR")?.toIntOrNull() ?: 0)
